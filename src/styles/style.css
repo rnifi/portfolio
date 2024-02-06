@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    padding: 10px 30px;
+    color: white;
+}
+
+body {
+    background-color: #363F46;
+}
+
+.container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 1440x;
+}
+
+.header>.container {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu {
+    gap: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
